@@ -25,8 +25,6 @@ Right(duration) {
 }
 Run "roblox://placeID=16483433878"
 
-SetTimer(() => WinClose("Warning"), -4000) ; totally not googled code!!!!!! 
-MsgBox("Make sure you don't have anything in slot 4 btw", "Warning", "0x0") 
 Sleep(16000)
 WinActivate("Roblox")
 Click
@@ -69,7 +67,7 @@ Right(3400)
 Right(2300)
 Forward(400) ; code change test thing
 Forward(400)
-Right(1800)
+Right(2200)
 Run "roblox://placeID=16483433878"
 Sleep(9000)
 Click
