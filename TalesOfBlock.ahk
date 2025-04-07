@@ -67,8 +67,7 @@ Back(300)
 Right(300)
 Right(3400)
 Right(2300)
-Forward(400)
-Right(1300)
+Forward(400) ; code change test thing
 Forward(400)
 Right(1800)
 Run "roblox://placeID=16483433878"
