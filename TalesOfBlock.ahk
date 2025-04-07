@@ -82,7 +82,7 @@ Loop 5 {
 }
 
 Loop 5 {  
-    xOffset := Random(-20, 20) 
+    xOffset := Random(-20, 20) ; anoter change
     yOffset := Random(-20, 20) 
     MouseMove(1490 + xOffset, 657 + yOffset, 10) 
     Sleep(50) 
