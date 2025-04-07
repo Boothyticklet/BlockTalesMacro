@@ -91,9 +91,9 @@ Loop 5 {
 MouseMove(1490, 657, 0) ; pro code is back yay
 MouseMove(1490, 657, 0)
 MouseMove(1490, 657, 0)
-MouseMove(1490, 657, 0) ; pipis
+MouseMove(1490, 657, 0)
 Click
 Click
 Click
 Right(25000)
-; this is a funny silly test billy 
+; fjdsifjsdikfj
