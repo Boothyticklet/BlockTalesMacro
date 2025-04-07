@@ -23,31 +23,24 @@ Right(duration) {
     Sleep duration     
     Send("{d up}")        
 }
+Rejoin() {
+    Right(1)
+    Sleep(2000)
+    Loop 5 {
+        Right(10)
+    }
+    Send("({Enter down})")
+    Sleep(250)
+    Send("({Enter up})")
+}
+
 Run "roblox://placeID=16483433878"
 
 Sleep(16000)
 WinActivate("Roblox")
 Click
 Sleep 5000
-CoordMode("Mouse", "Screen")
-Loop 5 {  
-    xOffset := Random(-20, 20) 
-    yOffset := Random(-20, 20) 
-    MouseMove(1490 + xOffset, 657 + yOffset, 10) 
-    Sleep(50) 
-}
-
-Loop 5 {  
-    xOffset := Random(-20, 20) 
-    yOffset := Random(-20, 20) 
-    MouseMove(1490 + xOffset, 657 + yOffset, 10) 
-    Sleep(50) 
-}
-MouseMove(1490, 657, 0) ; why.
-MouseMove(1490, 657, 0)
-MouseMove(1490, 657, 0)
-MouseMove(1490, 657, 0)
-Click 
+Rejoin()
 Sleep 10000
 Send("{Shift down}")
 Sleep(6000)
@@ -72,25 +65,10 @@ Run "roblox://placeID=16483433878"
 Sleep(9000)
 Click
 Sleep(4000)
-Loop 5 {  
-    xOffset := Random(-20, 20) 
-    yOffset := Random(-20, 20) 
-    MouseMove(1490 + xOffset, 657 + yOffset, 10) 
-    Sleep(50) 
-}
-
-Loop 5 {  
-    xOffset := Random(-20, 20) ; anoter change
-    yOffset := Random(-20, 20) 
-    MouseMove(1490 + xOffset, 657 + yOffset, 10) 
-    Sleep(50) 
-}
-MouseMove(1490, 657, 0) ; pro code is back yay
-MouseMove(1490, 657, 0)
-MouseMove(1490, 657, 0)
-MouseMove(1490, 657, 0)
-Click
-Click
-Click
+Rejoin()
 Sleep(7000)
 Right(25000)
+Run "roblox://placeID=16483433878"
+Sleep(8000)
+Rejoin()
+Forward(1200)
