@@ -92,5 +92,5 @@ MouseMove(1490, 657, 0)
 Click
 Click
 Click
+Sleep(7000)
 Right(25000)
-; fjdsifjsdikfj test landmark trust midnight
