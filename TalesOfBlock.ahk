@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
+Persistent
 
 R::ExitApp
 
@@ -75,3 +76,5 @@ Run "roblox://placeID=16483433878"
 Sleep(8000)
 Rejoin()
 Forward(1200)
+Right(3000)
+Forward(2500)
